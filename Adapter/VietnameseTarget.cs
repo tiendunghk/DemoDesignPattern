@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Adapter
 {
-    public interface ITeam
+    public interface VietnameseTarget
     {
-        string ExecuteProject();
+        void Send(string words);
     }
 }
