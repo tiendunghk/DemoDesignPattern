@@ -7,7 +7,7 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            VietnameseTarget client = new TranslatorAdapter(new JapaneseAdaptee());
+            IVietnameseTarget client = new TranslatorAdapter(new JapaneseAdaptee());
             client.Send("Xin chào");
         }
     }

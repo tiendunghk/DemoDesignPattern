@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Adapter
 {
-    public interface VietnameseTarget
+    public interface IVietnameseTarget
     {
         void Send(string words);
     }

@@ -6,7 +6,7 @@ namespace Adapter
 {
     public class JapaneseAdaptee
     {
-        public void receive(string words)
+        public void Receive(string words)
         {
             Console.WriteLine("Retrieving words from Adapter ...");
             Console.WriteLine(words);
