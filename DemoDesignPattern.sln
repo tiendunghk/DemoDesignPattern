@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{E0F7AE07-7CDF-4900-8206-E792A8872464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{DE263E9B-AB14-482A-8193-9544958CBEC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{DE263E9B-AB14-482A-8193-9544958CBEC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{D66AD5C7-ACA3-4574-AA68-37E73786BB95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DE263E9B-AB14-482A-8193-9544958CBEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE263E9B-AB14-482A-8193-9544958CBEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE263E9B-AB14-482A-8193-9544958CBEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66AD5C7-ACA3-4574-AA68-37E73786BB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66AD5C7-ACA3-4574-AA68-37E73786BB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66AD5C7-ACA3-4574-AA68-37E73786BB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AD5C7-ACA3-4574-AA68-37E73786BB95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
